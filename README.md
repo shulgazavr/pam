@@ -15,7 +15,7 @@ groupadd admin
 ```
 usermod -aG admin root
 ```
-Установка модуля pam_script:
+Установка модуля `pam_script`:
 ```
 for pkg in epel-release pam_script; do yum install -y $pkg; done
 ```
